@@ -32,32 +32,39 @@ Finally — assuming you want to choose the where the data is placed with in the
 
 So, lets say we want to put the the first piece of text inside the 3rd bubble
 
-This text
+
+
+### This text
 
 <img src="./InstructionAssets/Untitled 4.png"/>
 
-Inside of 
+### Inside of 
 
 <img src="./InstructionAssets/Screenshot_2021-06-03_at_10.23.04.png"/>
-To look like this
+
+
+### To look like this
 
 
 <img src="./InstructionAssets/Untitled 5.png"/>
 
-We use append child. Append child is exactly the same as saying 'container 3 will contain the data in container 1'. So lets do this directly below where it says //CHANGE CODE HERE  in your main.js file: 
-
+We use appendChild. AppendChild is <u>exactly the same</u> as saying *'container 3 will contain the data in container 1'*. So, lets do this directly below where it says //CHANGE CODE HERE in your *main.js* file: 
 
 <img src="./InstructionAssets/Untitled 6.png"/>
 
+
 Repeat this process deciding where you want to insert the text into which bubbles. 
 
-Here is a finished example:
+Double click on your html file to see the results
 
+When you are happy with what goes where, we can move on to changing the print settings.
+
+### Here is a finished example:
 
 <img src="./InstructionAssets/Untitled 7.png"/>
-
-Double click on the html file and press print
 
 Change the destination to *'save as PDF'*. Change the layout setting from *portrait to landscape*. Click on *more settings* and change the *scale to 24*.
 
 <img src="./InstructionAssets/Untitled 8.png"/>
+
+Once all of these changes have been made press print
