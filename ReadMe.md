@@ -10,7 +10,7 @@ Inside of your new index.html file scroll to the bottom of the page and change t
 
 From:
 
-(./InstructionAssets/Untitled.png)
+[](./InstructionAssets/Untitled.png)
 
 To:
 
