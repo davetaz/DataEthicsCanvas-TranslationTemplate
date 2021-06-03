@@ -1,6 +1,5 @@
-
 //CHANGE CODE BELOW 
-let apiUrl = './YourTranslation.json';
+let apiUrl = './theNameOfTheJsonFile.json';
 
 async function getJson(url) {
   return await fetch(url).then(response => response.json()).then(json => json);
@@ -47,7 +46,7 @@ function main(collection) {
    
 
 //CHANGE CODE HERE
-    // bubble[BUBBLE POSTION].appendChild(dataContainer[CONTAINER POSITION IN YOUR CANVAS JSON])
+    // bubble[BUBBLE POSITION].appendChild(dataContainer[CONTAINER POSITION IN YOUR CANVAS JSON])
    
 
     return data;
