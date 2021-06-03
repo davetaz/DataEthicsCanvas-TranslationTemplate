@@ -10,7 +10,7 @@ Inside of your new index.html file scroll to the bottom of the page and change t
 
 From:
 
-<img src="./InstructionAssets/Untitled.png"/>
+<img src="./InstructionAssets/Untitled.png">
 
 To:
 
@@ -59,6 +59,5 @@ Here is a finished example:
 Double click on the html file and press print
 
 Change the destination to 'save as PDF'. Change it from portrait to landscape. Click on more settings and change the scale to 24.
-
 
 <img src="./InstructionAssets/Untitled 8.png"/>
