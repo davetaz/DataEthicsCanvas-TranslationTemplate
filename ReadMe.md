@@ -4,7 +4,7 @@ Make sure your ***.ts*** file or ***.json*** file is inside of the same folder a
 
 If it is a .ts file, change the file name to .json.
 
-In order to create a new translation file duplicate the index.html and main.js file and rename it indexY*ourTranslationName*.html. and main*YourTranslationName.js*
+In order to create a new translation file duplicate the index.html and main.js file and rename it index*YourTranslationName*.html. and main*YourTranslationName.js*
 
 Inside of your new index.html file scroll to the bottom of the page and change the main.js file name to your newly named js file:
 
@@ -58,6 +58,6 @@ Here is a finished example:
 
 Double click on the html file and press print
 
-Change the destination to 'save as PDF'. Change it from portrait to landscape. Click on more settings and change the scale to 24.
+Change the destination to *'save as PDF'*. Change the layout setting from *portrait to landscape*. Click on *more settings* and change the *scale to 24*.
 
 <img src="./InstructionAssets/Untitled 8.png"/>
