@@ -1,0 +1,32 @@
+/* .background-check {
+    background-image: url('./ODI Data Ethics Canvas - Learning team derivative - 2020-06-25 copy.jpg');
+} */
+
+body {
+    color:white;
+}
+
+
+.list-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+
+li {
+    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 43px;
+    list-style-type: none;
+    padding: 15px;
+}
+
+h3 {
+    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 100px;
+    margin-top: 43px;
+    margin-left: 70px;
+    padding-right: 135px;
+}
