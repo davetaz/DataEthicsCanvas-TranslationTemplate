@@ -8,21 +8,21 @@ In order to create a new translation file duplicate the index.html and main.js f
 
 Inside of your new index.html file scroll to the bottom of the page and change the main.js file name to your newly named js file:
 
-From:
+### From:
 
-[](../InstructionAssets/Untitled.png)
+<img src="./InstructionAssets/Untitled.png"/>
 
-To:
+### To:
 
 <img src="./InstructionAssets/Untitled 1.png"/>
 
 Next, open your newly created main*YourTranslationName*.js file. On line 2 you will see a path which  references a json file. Make sure the path matches the name of the json file in your root folder. 
 
-From:
+### From:
 
 <img src="./InstructionAssets/Untitled 2.png"/>
 
-To:
+### To:
 
 <img src="./InstructionAssets/Untitled 3.png"/>
 
