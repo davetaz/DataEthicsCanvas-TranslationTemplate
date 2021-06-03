@@ -10,21 +10,21 @@ Inside of your new index.html file scroll to the bottom of the page and change t
 
 From:
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled.png)
+![./InstructionAssets/Untitled.png](./InstructionAssets/Untitled.png)
 
 To:
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%201.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%201.png)
+![./InstructionAssets/Untitled%201.png](./InstructionAssets/Untitled%201.png)
 
 Next, open your newly created main*YourTranslationName*.js file. On line 2 you will see a path which  references a json file. Make sure the path matches the name of the json file in your root folder. 
 
 From:
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%202.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%202.png)
+![./InstructionAssets/Untitled%202.png](./InstructionAssets/Untitled%202.png)
 
 To:
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%203.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%203.png)
+![./InstructionAssets/Untitled%203.png](./InstructionAssets/Untitled%203.png)
 
 **IMPORTANT! - DO NOT REMOVE THE *./* FROM THE FILE NAME**
 
@@ -34,28 +34,28 @@ So, lets say we want to put the the first piece of text inside the 3rd bubble
 
 This text
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%204.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%204.png)
+![./InstructionAssets/Untitled%204.png](./InstructionAssets/Untitled%204.png)
 
 Inside of 
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Screenshot_2021-06-03_at_10.23.04.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Screenshot_2021-06-03_at_10.23.04.png)
+![./InstructionAssets/Screenshot_2021-06-03_at_10.23.04.png](./InstructionAssets/Screenshot_2021-06-03_at_10.23.04.png)
 
 To look like this
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%205.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%205.png)
+![./InstructionAssets/Untitled%205.png](./InstructionAssets/Untitled%205.png)
 
 We use append child. Append child is exactly the same as saying 'container 3 will contain the data in container 1'. So lets do this directly below where it says //CHANGE CODE HERE  in your main.js file: 
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%206.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%206.png)
+![./InstructionAssets/Untitled%206.png](./InstructionAssets/Untitled%206.png)
 
 Repeat this process deciding where you want to insert the text into which bubbles. 
 
 Here is a finished example:
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Screenshot_2021-06-03_at_22.50.26.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Screenshot_2021-06-03_at_22.50.26.png)
+![./InstructionAssets/Screenshot_2021-06-03_at_22.50.26.png](./InstructionAssets/Screenshot_2021-06-03_at_22.50.26.png)
 
 Double click on the html file and press print
 
 Change the destination to 'save as PDF'. Change it from portrait to landscape. Click on more settings and change the scale to 24.
 
-![Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%207.png](Data%20Ethics%20Canvas%20f68240d5f61549089b616b2854e17716/Untitled%207.png)
+![./InstructionAssets/Untitled%207.png](./InstructionAssets/Untitled%207.png)
