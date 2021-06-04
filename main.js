@@ -114,6 +114,7 @@ function main(collection) {
   });
 }
 
+var url = new URL(window.location.href);
 var lang = url.searchParams.get("lang") || "en";
 main(lang);
 
