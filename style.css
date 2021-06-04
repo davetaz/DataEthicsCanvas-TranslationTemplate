@@ -4,9 +4,46 @@
 
 body {
     color:white;
+    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
+#top-left {
+    height: 300px;
+    width: 630px;
+}
 
+#license-logo {
+    align-self: center;
+    margin-right: 25px;
+}
+.image-text {
+    display: inline-flex;
+    
+}
+#bottom-left {
+    font-size: 90px;
+}
+#bottom-right-license {
+    display: inline;
+    font-size: 31.5px;
+    font-weight: 400;
+}
+#bottom-right-link {
+    font-size: 60px;
+}
+
+#top-right {
+    font-size: 240px;
+}
+#top-right-date {
+    font-weight: 400;
+    font-size: 60px;
+}
+h2 {
+    display: inline-block;
+    color: #355c9f;
+    padding: 0px;
+}
 .list-container {
     position: absolute;
     bottom: 0;
@@ -17,14 +54,12 @@ body {
 
 
 li {
-    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-size: 43px;
     list-style-type: none;
     padding: 15px;
 }
 
 h3 {
-    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-size: 100px;
     margin-top: 43px;
     margin-left: 70px;

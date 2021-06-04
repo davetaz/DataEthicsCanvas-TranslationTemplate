@@ -1,0 +1,128 @@
+{
+   "limites":{
+      "title":"Limitations des sources de données",
+      "questions":[
+         "Y a-t-il des limites qui pourraient influencer les résultats de votre projet?"
+      ],
+      "listlabel":"Description"
+   },
+   "éthique-législatif":{
+      "title":"Contexte éthique et législatif",
+      "questions":[
+         "Quels codes éthiques existants s'appliquent à votre secteur ou projet?",
+         "Quelles lois, politiques ou autres réglementations déterminent votre utilisation des données?"
+      ],
+      "listlabel":"Quelles exigences cela introduit-il ?"
+   },
+   "atténuations":{
+      "title":"Minimiser les effets négatifs",
+      "questions":[
+         "Quelles mesures pouvez-vous prendre pour minimiser les dommages ?",
+         "Comment pourriez-vous réduire les limitations de vos sources de données ? Comment sécurisez-vous les informations personnelles et autres informations sensibles ?",
+         "Comment mesurez-vous, rapportez-vous et agissez-vous sur les impacts négatifs potentiels de votre projet ?",
+         "Quels bénéfices apporteront ces actions à votre projet?"
+      ]
+   },
+   "les raisons":{
+      "title":"Vos raisons d'utiliser les données",
+      "questions":[
+         "Quelle est votre principale motivation pour collecter et utiliser des données dans ce projet?",
+         "Quels sont vos principaux cas d'utilisation ? Quel est votre modèle économique?",
+         "Améliorez-vous les choses pour la société ? Comment et pour qui?",
+         "Remplacez-vous un autre produit ou service à la suite de ce projet ?"
+      ]
+   },
+   "les effets positifs":{
+      "title":"Effets positifs sur les gens",
+      "questions":[
+         "Quels individus, groupes, données démographiques ou organisations seront positivement affectés par ce projet ? Comment ?",
+         "Comment mesurez-vous et communiquez-vous l'impact positif ? Comment pourriez-vous l'augmenter ?"
+      ],
+      "listlabel":"Comment?"
+   },
+   "effets négatifs":{
+      "title":"Effets négatifs sur les gens",
+      "questions":[
+         "Qui pourrait être affecté négativement par ce projet?",
+         "La manière dont les données sont collectées, utilisées ou partagées peut-elle nuire ou exposer les individus à un risque de ré-identification?",
+         "Pourrait-il être utilisé pour cibler, profiler ou porter préjudice à des personnes, ou restreindre injustement l'accès (par exemple, des accords exclusifs) ?",
+         "Comment les limites et les risques sont-ils communiqués aux gens ?"
+      ],
+      "listlabel":"Comment?"
+   },
+   "ouverture":{
+      "title":"Ouverture et transparence",
+      "questions":[
+         "Dans quelle mesure pouvez-vous être ouvert sur ce projet ? Pourriez-vous publier votre méthodologie, vos métadonnées, vos jeux de données, votre code ou vos mesures d'impact ?",
+         "Pouvez-vous demander à vos pairs des commentaires sur le projet ? Comment le communiquerez-vous en interne?",
+         "Voulez-vous publier vos actions et vos réponses sur cette toile ouvertement?"
+      ]
+   },
+   "partage":{
+      "title":"Partager des données avec d'autres",
+      "questions":[
+         "Allez-vous partager des données avec d'autres organisations ? Si oui, qui ?",
+         "Envisagez-vous de publier des données ? Dans quelles conditions ? "
+      ]
+   },
+   "communicant":{
+      "title":"Communiquer votre objectif",
+      "questions":[
+         "Les gens comprennent-ils votre objectif – en particulier les personnes sur lesquelles portent les données ou qui sont affectées par leur utilisation ? ",
+         " Comment avez-vous communiqué votre objectif ? Cette communication a-t-elle été claire ? ",
+         "Comment vous assurez-vous que les personnes ou les groupes les plus vulnérables comprennent ?"
+      ]
+   },
+   "engageant":{
+      "title":"S'engager avec les gens",
+      "questions":[
+         "Comment les gens peuvent-ils s'engager avec vous au sujet du projet ?",
+         "Comment les gens peuvent-ils corriger des informations, faire appel ou demander des modifications au produit/service ? Dans quelle mesure ?",
+         "Les mécanismes d'appel sont-ils raisonnables et bien compris ?"
+      ]
+   },
+   "la mise en oeuvre":{
+      "title":"Mise en œuvre en cours",
+      "questions":[
+         "Incluez-vous régulièrement les pensées, les idées et les considérations des personnes affectées par votre projet ? Comment ?",
+         "Quelles informations ou formations pourraient être nécessaires pour aider les gens à comprendre les problèmes liés aux données ?",
+         "Des systèmes, des processus et des ressources sont-ils disponibles pour répondre aux problèmes de données qui surviennent à long terme ?"
+      ]
+   },
+   "revoir":{
+      "title":"Commentaires et itérations",
+      "questions":[
+         "Comment les problèmes d'éthique des données en cours seront-ils mesurés, surveillés, discutés et traités ?",
+         "À quelle fréquence vos réponses à ce canevas seront-elles examinées ou mises à jour ? Quand ?"
+      ]
+   },
+   "sources":{
+      "title":"Sources de données",
+      "questions":[
+         "Nommez/décrivez les sources de données clés de votre projet, que vous collectiez des données vous-même ou que vous y accédiez via des tiers."
+      ],
+      "Étiquettes":{
+         "title":"Titre",
+         "description":"Description",
+         "url":"URL",
+         "owner":"Propriétaire"
+      }
+   },
+   "droits":{
+      "title":"Droits autour des données",
+      "questions":[
+         "De quelle base ou licence disposez-vous pour utiliser ces données ?",
+         "Les données ont-elles été collectées pour ce projet ou un autre euh objectif ?",
+         "Les données contiennent-elles des informations personnelles ?",
+         "Les données contiennent-elles des informations commercialement ou autrement sensibles ?",
+         "Notes supplémentaires relatives à cette source de données."
+      ]
+   },
+   "Actions":{
+      "title":"Vos actions",
+      "questions":[
+         "Quelle action allez-vous entreprendre avant d'aller de l'avant avec ce projet ?",
+         "Voulez-vous publier ouvertement vos actions et vos réponses sur ce canevas ?"
+      ]
+   }
+}

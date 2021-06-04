@@ -1,6 +1,8 @@
+const en = './lang/en.json';
+const fr = './lang/fr.json'
 //CHANGE CODE BELOW 
-let apiUrl = './theNameOfTheJsonFile.json';
-
+// let apiUrl = './lang/'+ en +'.json';
+// './lang/'+ lang + '.json';
 async function getJson(url) {
   return await fetch(url).then(response => response.json()).then(json => json);
 }
@@ -48,9 +50,27 @@ function main(collection) {
 //CHANGE CODE HERE
     // bubble[BUBBLE POSITION].appendChild(dataContainer[CONTAINER POSITION IN YOUR CANVAS JSON])
    
+    bubble[1].appendChild(dataContainer[13])
+    bubble[2].appendChild(dataContainer[14])
+    bubble[3].appendChild(dataContainer[1])
+    bubble[4].appendChild(dataContainer[2])
+    bubble[5].appendChild(dataContainer[11])
+    bubble[6].appendChild(dataContainer[4])
+    bubble[7].appendChild(dataContainer[5])
+    bubble[8].appendChild(dataContainer[6])
+    bubble[9].appendChild(dataContainer[3])
+    bubble[10].appendChild(dataContainer[12])
+    bubble[11].appendChild(dataContainer[10])
+    bubble[12].appendChild(dataContainer[9])
+    bubble[13].appendChild(dataContainer[7])
+    bubble[14].appendChild(dataContainer[8])
+    bubble[15].appendChild(dataContainer[15])
+   
+
 
     return data;
   });
 }
 
-main(apiUrl);
+main(en);
+
