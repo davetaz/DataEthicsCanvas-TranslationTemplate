@@ -114,5 +114,6 @@ function main(collection) {
   });
 }
 
-main(en);
+var lang = url.searchParams.get("lang") || "en";
+main(lang);
 
