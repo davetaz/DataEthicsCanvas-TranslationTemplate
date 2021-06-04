@@ -3,6 +3,7 @@ const fr = './lang/fr.json'
 //CHANGE CODE BELOW 
 // let apiUrl = './lang/'+ en +'.json';
 // './lang/'+ lang + '.json';
+
 async function getJson(url) {
   return await fetch(url).then(response => response.json()).then(json => json);
 }
@@ -40,7 +41,7 @@ function main(collection) {
       })
     }
     
-    
+
     let info = Object.values(data.corners)
     let largeTitle = info[1]
     let logo = info[0]
