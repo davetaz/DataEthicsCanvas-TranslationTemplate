@@ -39,6 +39,47 @@ function main(collection) {
         document.body.appendChild(div)
       })
     }
+    
+    
+    let info = Object.values(data.corners)
+    let largeTitle = info[1]
+    let logo = info[0]
+    let bottomLeftText = info[2]
+    let link = info[3]
+    let date = info[4]
+    let licenseLogo = info[5][0]
+  
+    let licenseText = info[5][1]
+
+    // const corners = [
+    //   info, 
+    //   largeTitle, 
+    //   logo, 
+    //   bottomLeftText, 
+    //   link, 
+    //   date, 
+    //   licenseLogo, 
+    //   licenseText
+    // ]
+
+    let topRight = document.getElementById("top-right")
+    let topRightDate = document.getElementById("top-right-date")
+    let topLeft = document.getElementById("top-left")
+    let bottomLeft = document.getElementById("bottom-left")
+    let bottomRightLogo = document.getElementById("license-logo")
+    let bottomRightLink = document.getElementById("bottom-right-link")
+    let bottomRightText = document.getElementById("bottom-right-license")
+    
+  
+    topRight.append(largeTitle)
+    topRightDate.append(date)
+    topLeft.src = logo
+    bottomLeft.append(bottomLeftText)
+    bottomRightLogo.src = licenseLogo
+    bottomRightLink.append(link)
+    bottomRightText.append(licenseText)
+    
+    // let info = Object.values(data.corners)[0]
 
     let dataContainer = ["NA"]
 
