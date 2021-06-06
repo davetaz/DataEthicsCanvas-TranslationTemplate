@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="53.098454mm"
+   height="22.75659mm"
+   viewBox="0 0 53.098454 22.75659"
+   version="1.1"
+   id="svg1991"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="odi-logo-blue.svg">
+  <defs
+     id="defs1985">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1827">
+      <path
+         d="M 0,0 H 1768.819 V 1275.591 H 0 Z"
+         id="path1825" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="31.398159"
+     inkscape:cy="136.53929"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1267"
+     inkscape:window-height="1040"
+     inkscape:window-x="26"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1988">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.44636033,-0.52608067)">
+    <g
+       id="g1821"
+       transform="matrix(0.38228379,0,0,-0.38228379,-29.895657,457.82194)">
+      <g
+         id="g1823"
+         clip-path="url(#clipPath1827)">
+        <g
+           id="g1829"
+           transform="translate(190.4884,1195.7759)">
+          <path
+             d="m 0,0 v -18.458 c -1.413,4.022 -3.659,7.558 -6.696,10.468 -2.68,2.567 -5.893,4.559 -9.551,5.921 -3.719,1.385 -7.82,2.087 -12.188,2.087 l -25.269,0.004 v -18.3 c -1.478,3.702 -3.701,7.102 -6.604,10.005 -5.622,5.622 -13.096,8.718 -21.046,8.718 -7.951,0 -15.425,-3.096 -21.046,-8.718 -5.622,-5.622 -8.718,-13.096 -8.718,-21.046 0,-7.95 3.096,-15.425 8.718,-21.046 5.621,-5.622 13.095,-8.718 21.046,-8.718 7.95,0 15.424,3.096 21.046,8.718 2.903,2.903 5.126,6.303 6.604,10.005 v -18.257 l 25.269,0.004 c 4.368,0 8.469,0.702 12.188,2.087 3.658,1.362 6.871,3.354 9.551,5.921 3.037,2.91 5.283,6.445 6.696,10.467 V -58.639 H 27.78 V 0 Z"
+             style="fill:#3555ae;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path1831" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,9 +1,3 @@
-const en = './lang/en.json';
-const fr = './lang/fr.json'
-//CHANGE CODE BELOW 
-// let apiUrl = './lang/'+ en +'.json';
-// './lang/'+ lang + '.json';
-
 async function getJson(url) {
   return await fetch(url).then(response => response.json()).then(json => json);
 }
@@ -14,7 +8,7 @@ for(let i = 1; i<16; i++){
   bubble.push(document.getElementById(`container-${i}`))
 }
 
-function main(collection) {
+function main(collection,color) {
   getJson(collection).then(data => {
 
     for (let i = 0; i < 15; i++) {
@@ -74,9 +68,9 @@ function main(collection) {
   
     topRight.append(largeTitle)
     topRightDate.append(date)
-    topLeft.src = logo
+    topLeft.src = "assets/" + color + "/" + logo
     bottomLeft.append(bottomLeftText)
-    bottomRightLogo.src = licenseLogo
+    bottomRightLogo.src = "assets/" + color + "/" + licenseLogo
     bottomRightLink.append(link)
     bottomRightText.append(licenseText)
     
@@ -115,6 +109,17 @@ function main(collection) {
 }
 
 var url = new URL(window.location.href);
+
+var color = url.searchParams.get("color") || "colour";
+if (color == "greyscale") {
+  document.getElementsByTagName("body")[0].style.backgroundImage = "url('assets/greyscale/template-blank.png')";
+  document.getElementsByTagName("body")[0].style.color = "black";
+  var h2Elements = document.getElementsByTagName("h2");
+  for(var i = 0; i < h2Elements.length; i++) {
+    h2Elements[i].style.color = "black";
+  }
+}
+
 var lang = url.searchParams.get("lang") || "en";
-main(lang);
+main("./lang/" + lang + ".json",color);
 

@@ -126,11 +126,11 @@
        ]
     },
     "corners": {
-      "top-left": "logo-rough.png",
+      "top-left": "odi-logo.svg",
       "top-right": "Data Ethics Canvas",
       "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
       "bottom-right-link": "theodi.org/tools",
       "date": "2021-05",
-      "licence": ["CC-License.png", "This text is licensed under a Creative Commons Attribution-ShareAlike 4.0 UK. International License"]
+      "licence": ["cc-by-sa.svg", "This text is licensed under a Creative Commons Attribution-ShareAlike 4.0 UK. International License"]
     }
  }

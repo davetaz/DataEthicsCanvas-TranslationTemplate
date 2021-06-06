@@ -124,5 +124,13 @@
          "Quelle action allez-vous entreprendre avant d'aller de l'avant avec ce projet ?",
          "Voulez-vous publier ouvertement vos actions et vos réponses sur ce canevas ?"
       ]
+   },
+   "corners": {
+      "top-left": "odi-logo.svg",
+      "top-right": "Data Ethics Canvas",
+      "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
+      "bottom-right-link": "theodi.org/tools",
+      "date": "2021-05",
+      "licence": ["cc-by-sa.svg", "Ce texte est couvert par une licence Creative Commons Attribution - ShareAlike 4.0 UK. Licence internationale"]
    }
 }
