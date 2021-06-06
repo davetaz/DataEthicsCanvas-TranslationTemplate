@@ -1,38 +1,26 @@
 # Data Ethics Canvas
 
-Make sure your ***.ts*** file or ***.json*** file is inside of the same folder as the index.html and main.html
+You can use this tool to view different translations on different both the colour and black and white Data Ethics Canvases.
 
-If it is a .ts file, change the file name to .json.
+You go this by simply changing the *lang* and *color* query parameters e.g.
 
-In order to create a new translation file duplicate the index.html and main.js file and rename it index*YourTranslationName*.html. and main*YourTranslationName.js*
+https://theodi.github.io/data-ethics-canvas/?lang=en&color=greyscale
 
-Inside of your new index.html file scroll to the bottom of the page and change the main.js file name to your newly named js file:
+lang = Any language in the lang directory
 
-### From:
+color = *colour* OR *greyscale* only (default is colour)
 
-<img src="./InstructionAssets/Untitled.png"/>
+## How to submit a translation
 
-### To:
+In the lang folder, take an existing translation to edit and create a new file with your language code as the filename.
 
-<img src="./InstructionAssets/Untitled 1.png"/>
+Carefully translate the contents and send it back to us as a pull request.
 
-Next, open your newly created main*YourTranslationName*.js file. On line 2 you will see a path which  references a json file. Make sure the path matches the name of the json file in your root folder. 
+## How to re-arrange the canvas
 
-### From:
-
-<img src="./InstructionAssets/Untitled 2.png"/>
-
-### To:
-
-<img src="./InstructionAssets/Untitled 3.png"/>
-
-**IMPORTANT! - DO NOT REMOVE THE *./* FROM THE FILE NAME**
-
-Finally — assuming you want to choose the where the data is placed with in the bubbles — we will use something called appendChild. Append child is how we put an item inside of another item.
+Assuming you want to choose the where the data is placed with in the bubbles — we will use something called appendChild. Append child is how we put an item inside of another item.
 
 So, lets say we want to put the the first piece of text inside the 3rd bubble
-
-
 
 ### This text
 
@@ -42,16 +30,13 @@ So, lets say we want to put the the first piece of text inside the 3rd bubble
 
 <img src="./InstructionAssets/Screenshot_2021-06-03_at_10.23.04.png"/>
 
-
 ### To look like this
-
 
 <img src="./InstructionAssets/Untitled 5.png"/>
 
 We use appendChild. AppendChild is <u>exactly the same</u> as saying *'container 3 will contain the data in container 1'*. So, lets do this directly below where it says //CHANGE CODE HERE in your *main.js* file: 
 
 <img src="./InstructionAssets/Untitled 6.png"/>
-
 
 Repeat this process deciding where you want to insert the text into which bubbles. 
 
