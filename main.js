@@ -112,7 +112,7 @@ var url = new URL(window.location.href);
 
 var color = url.searchParams.get("color") || "colour";
 if (color == "greyscale") {
-  document.getElementsByTagName("body")[0].style.backgroundImage = "url('assets/greyscale/template-blank.png')";
+  document.getElementsByTagName("body")[0].style.backgroundImage = "url('assets/greyscale/template-blank.jpg')";
   document.getElementsByTagName("body")[0].style.color = "black";
   var h2Elements = document.getElementsByTagName("h2");
   for(var i = 0; i < h2Elements.length; i++) {
