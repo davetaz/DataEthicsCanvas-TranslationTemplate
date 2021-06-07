@@ -3,7 +3,7 @@
 } */
 
 body {
-    color: white;
+    color:white;
     font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -41,7 +41,6 @@ body {
     font-weight: 400;
     font-size: 60px;
 }
-
 h2 {
     display: inline-block;
     color: #355c9f;
@@ -68,5 +67,3 @@ h3 {
     margin-left: 70px;
     padding-right: 135px;
 }
-
-

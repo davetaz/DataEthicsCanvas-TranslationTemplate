@@ -120,6 +120,7 @@ if (color == "greyscale") {
   }
 }
 
+
 var lang = url.searchParams.get("lang") || "en";
 main("./lang/" + lang + ".json",color);
 
