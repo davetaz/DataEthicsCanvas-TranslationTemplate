@@ -1,0 +1,136 @@
+{
+    "limitations":{
+       "title":"Restrizioni fonti di dati",
+       "questions":[
+          "Ci sono limitazioni che potrebbero influenzare i risultati del vostro progetto?"
+       ],
+       "listlabel":"Description"
+    },
+    "ethical-legislative":{
+       "title":"Contesto etico e legislativo",
+       "questions":[
+          "Quali codici etici esistenti competono al vostro settore o progetto?",
+          "Quali leggi, politiche o altre normative determinano il modo in cui utilizzate i dati?"
+       ],
+       "listlabel":"Quali requisiti introducono?"
+    },
+    "mitigations":{
+       "title":"Minimizzare l'impatto negativo",
+       "questions":[
+          "Quali azioni potete intraprendere per minimizzare i danni?",
+          "Come potreste ridurre le limitazioni delle vostre fonti di dati?",
+          "Al momento, come misurate, comunicate e agite sui potenziali impatti negativi del vostro progetto",
+          "Quali benefici apporteranno queste azioni al vostro progetto?"
+       ]
+    },
+    "reasons":{
+       "title":"Il motivo dell'utilizzo dei dati",
+       "questions":[
+          "Qual è il vostro scopo principale nella raccolta e nell'utilizzo dei dati in questo progetto?",
+          "Quali sono i principali casi d'utilizzo? Qual è il vostro modello di business?",
+          "State migliorando lo stato della società? Come e per chi?",
+          "State sostituendo un altro prodotto o servizio come risultato di questo progetto?"
+       ]
+    },
+    "positive-effects":{
+       "title":"Effetti positivi sulle persone",
+       "questions":[
+          "Quali individui, gruppi, segmenti della popolazione o organizzazioni saranno positivamente interessati da questo progetto? Come?",
+          "Come state misurando e comunicando l'impatto positivo? Come si potrebbe aumentare?"
+       ],
+       "listlabel":"Come?"
+    },
+    "negative-effects":{
+       "title":"Effetti negativi sulle persone",
+       "questions":[
+          "Chi potrebbe essere influenzato negativamente da questo progetto?",
+          "Il modo in cui i dati vengono raccolti, utilizzati o condivisi potrebbe causare danni o esporre gli individui al rischio di essere reidentificati?",
+          "Potrebbero essere usati per colpire, descrivere o compromettere le persone, o limitare ingiustamente l'accesso (ad esempio, accordi di esclusiva)?",
+          "Come vengono comunicati alle persone i limiti e i rischi?"
+       ],
+       "listlabel":"Come?"
+    },
+    "openness":{
+       "title":"Apertura e trasparenza",
+       "questions":[
+          "Quanto potete rivelare di questo progetto? Potreste pubblicare la vostra metodologia, i metadati, i set di dati, il codice o le misure di impatto?",
+          "Potete chiedere ai colleghi un feedback sul progetto? Come lo comunicherete internamente?",
+          "Pubblicherete apertamente le vostre azioni e le vostre risposte su questo canvas?"
+       ]
+    },
+    "sharing":{
+       "title":"Condivisione dei dati con altri",
+       "questions":[
+          "Avete intenzione di condividere i dati con altre organizzazioni? Se sì, chi?",
+          "Avete intenzione di pubblicare i dati? Sotto quali condizioni?"
+       ]
+    },
+    "communicating":{
+       "title":"Comunicare lo scopo",
+       "questions":[
+          "Le persone capiscono il vostro scopo, specialmente le persone a cui si riferiscono i dati o che sono influenzate dal loro utilizzo?",
+          "Come avete comunicato il vostro scopo? Questa comunicazione è stata chiara?",
+          "Come assicurate la comprensione da parte di individui o gruppi vulnerabili?"
+       ]
+    },
+    "engaging":{
+       "title":"Collaborare con altre persone",
+       "questions":[
+          "In che modo le persone possono essere coinvolte nel progetto?",
+          "Come possono le persone correggere le informazioni, chiedere aiuto o avanzare richieste di modifica al prodotto/servizio? In che misura?",
+          "I meccanismi di ricorso sono ragionevoli e ben compresi?"
+       ]
+    },
+    "implementation":{
+       "title":"Attuazione in corso",
+       "questions":[
+          "Stai integrando abitualmente pensieri, idee e considerazioni delle persone interessate dal progetto? Come?",
+          "Quali informazioni o formazione potrebbero essere necessarie per aiutare le persone a comprendere le problematiche legate ai dati?",
+          "Sono disponibili sistemi, processi e risorse per rispondere alle problematiche legate ai dati che si presentano nel lungo periodo?"
+       ]
+    },
+    "review":{
+       "title":"Recensioni ed iterazioni",
+       "questions":[
+          "Come si misureranno, monitoreranno, discuteranno e processeranno le problematiche etiche relative ai dati In via sviluppo?",
+          "Con quale frequenza le vostre risposte a questo Canvas saranno riviste o aggiornate? Quando?"
+       ]
+    },
+    "sources":{
+       "title":"Fonti di dati",
+       "questions":[
+          "Nominate/descrivete le fonti dei dati chiave del vostro progetto, sia che stiate raccogliendo dati da soli o che vi stiate accedendo tramite terzi."
+       ],
+       "labels":{
+          "title":"Title",
+          "description":"Description",
+          "url":"URL",
+          "owner":"Owner"
+       }
+    },
+    "rights":{
+       "title":"Diritti in merito alle fonti di dati",
+       "questions":[
+          "What basis or licence do you have for using this data? CANNOT FIND TRANSLATION",
+          "I dati sono stati raccolti per questo progetto o per un altro scopo?",
+          "Si tratta di dati personali o di un altro genere di dati sensibili?",
+          "Does the data contain any commercially or otherwise sensitive information? CANNOT FIND TRANSLATION" ,
+          "Additional notes related to this data source. CANNOT FIND TRANSLATION"
+       ]
+    },
+    "actions":{
+       "title":"Le vostre azion",
+       "questions":[
+          "Quali azioni intraprenderete prima di procedere con questo progetto?",
+          "Pubblicherete apertamente le vostre azioni e le vostre risposte su questo canvas?"
+       ]
+    },
+    "corners": {
+      "top-left": "logo-rough.png",
+      "top-right": "Data Ethics Canvas",
+      "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
+      "bottom-right-link": "theodi.org/tools",
+      "date": "2021-05",
+      "licence": ["CC-License.png", "Questo testo è rilasciato sotto la licenza Creative Commons"]
+    }
+ }

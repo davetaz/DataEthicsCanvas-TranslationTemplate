@@ -43,7 +43,6 @@ function main(collection,color) {
     let link = info[3]
     let date = info[4]
     let licenseLogo = info[5][0]
-  
     let licenseText = info[5][1]
 
     // const corners = [
