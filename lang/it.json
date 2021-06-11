@@ -111,11 +111,8 @@
     "rights":{
        "title":"Diritti in merito alle fonti di dati",
        "questions":[
-          "What basis or licence do you have for using this data? CANNOT FIND TRANSLATION",
           "I dati sono stati raccolti per questo progetto o per un altro scopo?",
-          "Si tratta di dati personali o di un altro genere di dati sensibili?",
-          "Does the data contain any commercially or otherwise sensitive information? CANNOT FIND TRANSLATION" ,
-          "Additional notes related to this data source. CANNOT FIND TRANSLATION"
+          "Si tratta di dati personali o di un altro genere di dati sensibili?"
        ]
     },
     "actions":{
