@@ -1,0 +1,141 @@
+{ 
+    "sources":{
+         "title":"Datenquellen",
+         "questions":[
+            "Benennen/Beschreiben Sie die wichtigsten ﻿Datenquellen Ihres Projekts. Dies gilt ﻿unabhängig davon, ob Sie selbst Daten erfassen oder über Dritte auf diese zugreifen.",
+            "Handelt es sich um personenbezogene ﻿Daten oder um anderweitig vertrauliche Daten?"
+         ],
+         "labels":{
+            "title":"Title",
+            "description":"Description",
+            "url":"URL",
+            "owner":"Owner"
+         }
+      },
+       "limitations":{
+         "title":"Einschränkungen der Datenquellen",
+         "questions":[
+            "Gibt es Einschränkungen, die sich auf die Ergebnisse Ihres Projekts auswirken können?",
+            "Berücksichtigen Sie:",
+            "> Einseitige Ausrichtung der Datenerfassung, des Ein-/Ausschließens, der Analyse, der Algorithmen",
+            "> lückenhafte oder übergangene Daten",
+            "> Datenqualität und -herkunft" ,
+            "> weitere entscheidungsrelevante Fragen wie z. B. die Zusammensetzung des Teams"
+            
+         ],
+         "listlabel":"Description"
+      },
+         "sharing":{
+         "title":"Weitergeben von Daten an andere",
+         "questions":[
+            "Werden Sie Daten mit anderen Organisationen austauschen? Wenn ja, mit welchen?",
+            "Planen Sie eine Veröffentlichung der Daten? Unter welchen Bedingungen?"
+         ]
+      },
+      "ethical-legislative":{
+         "title":"Ethischer und rechtlicher Kontext",
+         "questions":[
+            "Welche bestehenden Ethikkodizes gelten für Ihren Sektor oder Ihr Projekt? Welche Gesetze, Richtlinien oder andere Vorschriften regeln Ihre Verwendung der Daten? Welche Anforderungen bringen diese mit sich?",
+            "Berücksichtigen Sie: Rechtsstaatlichkeit, Menschenrechte, Datenschutz, geistige Eigentums- und Datenbankrechte, Antidiskriminierungsgesetze, für den jeweiligen Sektor geltende Ethikkodizes/﻿Rahmenbedingungen für den Datenaustausch, Richtlinien und Regulierungen (z. B. Gesundheits-, Personal-, Steuerwesen)."
+         ],
+         "listlabel":"What requirements does this introduce?"
+      },
+        "rights":{
+         "title":"Rechte im Zusammenhang mit den Datenquellen",
+         "questions":[
+           "Woher stammen die Daten? Werden sie von einer Organisation erstellt oder direkt von Einzelpersonen erfasst?",
+          "Wurden die Daten für dieses Projekt oder für einen anderen Zweck erfasst? Verfügen Sie über eine Genehmigung oder eine andere Grundlage für die Verwendung der Daten? Welchen permanenten Rechten unterliegt die Datenquelle?"
+         ]
+      },
+          "reasons":{
+         "title":"Der Grund für Ihre Verwendung der Daten",
+         "questions":[
+            "Wie lautet das Hauptziel der Erfassung und Verwendung von Daten für dieses Projekt",
+            "Was lauten die wichtigsten Anwendungsfälle? Was ist Ihr Geschäftsmodell?",
+            "Bewirken Sie positive Veränderungen für die ﻿Gesellschaft? Wie und für wen?",
+            "Ersetzen Sie mit diesem Projekt letztlich ein ﻿anderes Produkt oder einen anderen Dienst?"
+         ]
+      },
+         "communicating":{
+         "title":"Kommunizieren des Zwecks",
+         "questions":[
+            "Verstehen die Menschen Ihre Absicht – vor allem jene Menschen, um die es im Zusammenhang mit den Daten geht, oder die von der Nutzung der Daten betroffen sind?",
+            "Auf welche Weise haben Sie Ihre Absicht kommuniziert? War die Kommunikation verständlich?",
+            "Wie stellen Sie sicher, dass Sie von schutzbedürftigeren Personen oder Gruppen verstanden werden?"
+         ]
+      },
+             "positive-effects":{
+         "title":"Positive Auswirkungen auf die Menschen",
+         "questions":[
+            "Auf welche Personen, Gruppen, Demographien oder Organisationen wirkt sich das Projekt positiv aus? Auf welche Weise?",
+            "Wie messen und kommunizieren Sie positive ﻿Auswirkungen? Auf welche Weise können ﻿Sie diese verstärken?"
+         ],
+         "listlabel":"How?"
+      },
+       "negative-effects":{
+         "title":"Negative Auswirkungen auf die Menschen",
+         "questions":[
+            "Kann die Art und Weise, auf die die Daten erfasst, verwendet oder weitergegeben werden, Schaden verursachen oder Personen der Gefahr aussetzen, nachträglich identifiziert zu werden? Können sie dazu verwendet werden, um Personen gezielt anzusprechen oder zu beeinflussen, ein Profil zu ﻿erstellen oder den Zugriff ungerechtfertigterweise ﻿einzuschränken (z. B. Ausschließlichkeitsbindung)?",
+            "Wie werden die Einschränkungen und Risiken kommuniziert? Berücksichtigen Sie: die Personen, um die es bei den Daten geht, die Personen, die von der Nutzung der Daten betroffen sind, und die Organisationen, die die Daten verwenden."
+         ],
+         "listlabel":"How?"
+      },
+          "mitigations":{
+         "title":"Minimieren der negativen Auswirkungen",
+         "questions":[
+            "Welche Maßnahmen können Sie ergreifen, um den Schaden zu minimieren?",
+            "Wie können Sie die Einschränkungen Ihrer Datenquellen reduzieren? Wie schützen Sie personenbezogene und andere vertrauliche Daten?",
+            "Wie bewerten, kommunizieren und behandeln Sie die möglichen negativen Auswirkungen Ihres Projekts?",
+            "Welchen Vorteil bieten diese Schritte Ihrem Projekt?"
+         ]
+      },
+             "engaging":{
+         "title":"Einbinden von Menschen",
+         "questions":[
+            "Wie können sich die Menschen bei Ihrem Projekt einbringen?",
+            "Wie können sie Daten korrigieren lassen, Einspruch erheben oder Änderungen am Produkt/Dienst anfordern? In welchem Umfang?",
+            "Sind die Beschwerdeverfahren angemessen und gut verständlich?"
+         ]
+      },
+           "openness":{
+         "title":"Offenheit und Transparenz",
+         "questions":[
+            "Wie offen können Sie über das Projekt kommunizieren? Können Sie Ihre Methodik, Metadaten, Datensätze, Codes oder Wirkungsmessungen veröffentlichen?",
+            "Können Sie Kollegen um Feedback zum Projekt bitten? Wie werden Sie das Projekt intern kommunizieren?",
+            "Werden Sie die Schritte und Antworten auf ﻿der Leinwand öffentlich zugänglich machen?"
+         ]
+      },
+           "implementation":{
+         "title":"Fortlaufende Umsetzung",
+         "questions":[
+            "Binden Sie regelmäßig Anregungen, Ideen und Überlegungen von Betroffenen in Ihr Projekt ein? Auf welche Weise?",
+            "Welche Informationen oder Schulungen sind möglicherweise erforderlich, um den Menschen dabei zu helfen, die Probleme im Zusammenhang mit Daten zu verstehen?",
+            "Sind Systeme, Prozesse und Ressourcen ﻿verfügbar, um auf langfristig auftretende ﻿Datenprobleme zu reagieren?"
+         ]
+         
+      },
+         "review":{
+         "title":"Reviews and iterations",
+         "questions":[
+            "Wie werden die stetig vorhandenen Fragen in Bezug auf die Datenethik gemessen, überwacht, erörtert und umgesetzt?",
+            "Wie häufig werden Ihre Antworten auf der ﻿Leinwand überprüft oder aktualisiert? Wann?"
+         ]
+      },
+         "actions":{
+         "title":"Ihre Schritte",
+         "questions":[
+            "Welche Maßnahmen werden Sie ergreifen, bevor Sie dieses Projekt vorantreiben? Welche sollte Priorität genießen?",
+            "Wer wird für diese Schritte verantwortlich sein, und wer muss einbezogen werden?",
+            "Werden Sie die Schritte und Antworten auf ﻿der Leinwand öffentlich zugänglich machen?"
+         ]
+      },
+          "corners": {
+        "top-left": "odi-logo.svg",
+        "top-right": "Data Ethics Canvas",
+        "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
+        "bottom-right-link": "theodi.org/tools",
+        "date": "2021-05",
+        "licence": ["cc-by-sa.svg", "This text is licensed under a Creative Commons Attribution-ShareAlike 4.0 UK. International License"]
+      }
+   }
+   
