@@ -16,6 +16,8 @@ In the lang folder, take an existing translation to edit and create a new file w
 
 Carefully translate the contents and send it back to us as a pull request.
 
+However, if you are new to Github/unsure how pull requests work 
+
 ## How to re-arrange the canvas
 
 Assuming you want to choose the where the data is placed with in the bubbles — we will use something called appendChild. Append child is how we put an item inside of another item.
