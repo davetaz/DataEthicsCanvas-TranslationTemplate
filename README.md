@@ -48,7 +48,7 @@ When you are happy with what goes where, we can move on to changing the print se
 
 <img src="./InstructionAssets/Untitled 7.png"/>
 
-Change the destination to *'save as PDF'*. Change the layout setting from *portrait to landscape*. Click on *more settings* and change the *scale to 24*.
+Change the destination to *'save as PDF'*. Change the layout setting from *portrait to landscape*. Click on *more settings* and change the *scale to 80*.
 
 <img src="./InstructionAssets/Untitled 8.png"/>
 
