@@ -1,136 +1,141 @@
 {
-   "limites":{
-      "title":"Limitations des sources de données",
-      "questions":[
-         "Y a-t-il des limites qui pourraient influencer les résultats de votre projet?"
+    "sources": {
+      "title": "Sources de données",
+      "questions": [
+        "Nommez/décrivez les principales sources de données de votre projet, que vous collectiez les données vous-même ou que vous y accédiez par l'intermédiaire de tiers.",
+        "S'agit-il de données personnelles ou de données autrement sensibles ?"
       ],
-      "listlabel":"Description"
-   },
-   "éthique-législatif":{
-      "title":"Contexte éthique et législatif",
-      "questions":[
-         "Quels codes éthiques existants s'appliquent à votre secteur ou projet?",
-         "Quelles lois, politiques ou autres réglementations déterminent votre utilisation des données?"
-      ],
-      "listlabel":"Quelles exigences cela introduit-il ?"
-   },
-   "atténuations":{
-      "title":"Minimiser les effets négatifs",
-      "questions":[
-         "Quelles mesures pouvez-vous prendre pour minimiser les dommages ?",
-         "Comment pourriez-vous réduire les limitations de vos sources de données ? Comment sécurisez-vous les informations personnelles et autres informations sensibles ?",
-         "Comment mesurez-vous, rapportez-vous et agissez-vous sur les impacts négatifs potentiels de votre projet ?",
-         "Quels bénéfices apporteront ces actions à votre projet?"
-      ]
-   },
-   "les raisons":{
-      "title":"Vos raisons d'utiliser les données",
-      "questions":[
-         "Quelle est votre principale motivation pour collecter et utiliser des données dans ce projet?",
-         "Quels sont vos principaux cas d'utilisation ? Quel est votre modèle économique?",
-         "Améliorez-vous les choses pour la société ? Comment et pour qui?",
-         "Remplacez-vous un autre produit ou service à la suite de ce projet ?"
-      ]
-   },
-   "les effets positifs":{
-      "title":"Effets positifs sur les gens",
-      "questions":[
-         "Quels individus, groupes, données démographiques ou organisations seront positivement affectés par ce projet ? Comment ?",
-         "Comment mesurez-vous et communiquez-vous l'impact positif ? Comment pourriez-vous l'augmenter ?"
-      ],
-      "listlabel":"Comment?"
-   },
-   "effets négatifs":{
-      "title":"Effets négatifs sur les gens",
-      "questions":[
-         "Qui pourrait être affecté négativement par ce projet?",
-         "La manière dont les données sont collectées, utilisées ou partagées peut-elle nuire ou exposer les individus à un risque de ré-identification?",
-         "Pourrait-il être utilisé pour cibler, profiler ou porter préjudice à des personnes, ou restreindre injustement l'accès (par exemple, des accords exclusifs) ?",
-         "Comment les limites et les risques sont-ils communiqués aux gens ?"
-      ],
-      "listlabel":"Comment?"
-   },
-   "ouverture":{
-      "title":"Ouverture et transparence",
-      "questions":[
-         "Dans quelle mesure pouvez-vous être ouvert sur ce projet ? Pourriez-vous publier votre méthodologie, vos métadonnées, vos jeux de données, votre code ou vos mesures d'impact ?",
-         "Pouvez-vous demander à vos pairs des commentaires sur le projet ? Comment le communiquerez-vous en interne?",
-         "Voulez-vous publier vos actions et vos réponses sur cette toile ouvertement?"
-      ]
-   },
-   "partage":{
-      "title":"Partager des données avec d'autres",
-      "questions":[
-         "Allez-vous partager des données avec d'autres organisations ? Si oui, qui ?",
-         "Envisagez-vous de publier des données ? Dans quelles conditions ? "
-      ]
-   },
-   "communicant":{
-      "title":"Communiquer votre objectif",
-      "questions":[
-         "Les gens comprennent-ils votre objectif – en particulier les personnes sur lesquelles portent les données ou qui sont affectées par leur utilisation ? ",
-         " Comment avez-vous communiqué votre objectif ? Cette communication a-t-elle été claire ? ",
-         "Comment vous assurez-vous que les personnes ou les groupes les plus vulnérables comprennent ?"
-      ]
-   },
-   "engageant":{
-      "title":"S'engager avec les gens",
-      "questions":[
-         "Comment les gens peuvent-ils s'engager avec vous au sujet du projet ?",
-         "Comment les gens peuvent-ils corriger des informations, faire appel ou demander des modifications au produit/service ? Dans quelle mesure ?",
-         "Les mécanismes d'appel sont-ils raisonnables et bien compris ?"
-      ]
-   },
-   "la mise en oeuvre":{
-      "title":"Mise en œuvre en cours",
-      "questions":[
-         "Incluez-vous régulièrement les pensées, les idées et les considérations des personnes affectées par votre projet ? Comment ?",
-         "Quelles informations ou formations pourraient être nécessaires pour aider les gens à comprendre les problèmes liés aux données ?",
-         "Des systèmes, des processus et des ressources sont-ils disponibles pour répondre aux problèmes de données qui surviennent à long terme ?"
-      ]
-   },
-   "revoir":{
-      "title":"Commentaires et itérations",
-      "questions":[
-         "Comment les problèmes d'éthique des données en cours seront-ils mesurés, surveillés, discutés et traités ?",
-         "À quelle fréquence vos réponses à ce canevas seront-elles examinées ou mises à jour ? Quand ?"
-      ]
-   },
-   "sources":{
-      "title":"Sources de données",
-      "questions":[
-         "Nommez/décrivez les sources de données clés de votre projet, que vous collectiez des données vous-même ou que vous y accédiez via des tiers."
-      ],
-      "Étiquettes":{
-         "title":"Titre",
-         "description":"Description",
-         "url":"URL",
-         "owner":"Propriétaire"
+      "Étiquettes": {
+        "title": "Titre",
+        "description": "Description",
+        "url": "URL",
+        "owner": "Propriétaire"
       }
-   },
-   "droits":{
-      "title":"Droits autour des données",
-      "questions":[
-         "De quelle base ou licence disposez-vous pour utiliser ces données ?",
-         "Les données ont-elles été collectées pour ce projet ou un autre euh objectif ?",
-         "Les données contiennent-elles des informations personnelles ?",
-         "Les données contiennent-elles des informations commercialement ou autrement sensibles ?",
-         "Notes supplémentaires relatives à cette source de données."
+    },
+    "limites": {
+      "title": "Limitations des sources de données",
+      "questions": [
+        "Y a-t-il des limites qui pourraient influencer  les résultats de votre projet ?",
+        "Réfléchissez à ce qui suit:",
+        "un biais dans la collecte des données, l'inclusion/exclusion, l'analyse, les algorithmes",
+        "les lacunes ou omissions dans les donnéesla provenance et la qualité des données",
+        "d'autres questions ayant une incidence sur les décisions, comme la composition de l'équipe"
+      ],
+      "listlabel": "Description"
+    },
+    "partage": {
+      "title": "Partager des données avec d'autres",
+      "questions": [
+        "Allez-vous partager des données avec d'autres organisations ? Si oui, lesquelles ?",
+        "Prévoyez-vous de publier certaines des données ? Dans quelles conditions ?"
       ]
-   },
-   "Actions":{
-      "title":"Vos actions",
-      "questions":[
-         "Quelle action allez-vous entreprendre avant d'aller de l'avant avec ce projet ?",
-         "Voulez-vous publier ouvertement vos actions et vos réponses sur ce canevas ?"
+    },
+    "éthique-législatif": {
+      "title": "Contexte éthique et législatif",
+      "questions": [
+        "Quels codes éthiques existants s'appliquent à votre secteur ou à votre projet ? Quelles lois, politiques ou autres règlements façonnent la façon dont vous utilisez les données ? Quelles sont les exigences qu'ils introduisent?",
+        "Réfléchissez à ce qui suit : l'État de droit  ; les droits de la personne ; la protection des données ; les droits de propriété intellectuelle et les droits relatifs aux bases de données ; les lois antidiscriminatoires ; et le partage des données, les politiques, la réglementation et les codes/cadres d'éthique propres aux secteurs (p. ex., santé, emploi, fiscalité)."
+      ],
+      "listlabel": "context"
+    },
+    "droits": {
+      "title": "Droits autour des sources de données",
+      "questions": [
+        "Où avez-vous obtenu les données ? Sont-elles produites par une organisation ou collectées directement auprès des  individus ?",
+        "Les données ont-elles été recueillies pour ce projet ou à une autre fin ? Avez-vous l'autorisation d'utiliser ces données, ou une autre base sur laquelle vous êtes autorisé à les utiliser ? Quels sont les droits permanents de la source de données ?"
       ]
-   },
-   "corners": {
+    },
+    "les raisons": {
+      "title": "Votre raison d'utiliser les données",
+      "questions": [
+        "Quel est votre objectif principal pour la collecte et l'utilisation des données dans ce projet?",
+        "Quels sont vos principaux cas d'utilisation ? ﻿Quel est votre modèle commercial ?",
+        "Est-ce que vous améliorez les choses pour ﻿la société ? Comment et pour qui ?",
+        "Remplacez-vous un autre produit ou service à la suite de ce projet ?"
+      ]
+    },
+    "communicant": {
+      "title": "Communiquer votre objectif",
+      "questions": [
+        "Les gens comprennent-ils votre objectif - en particulier les personnes sur lesquelles portent les données ou qui sont touchées ﻿par leur utilisation ?",
+        "Comment avez-vous communiqué votre  but ? Cette communication a-t-elle été  claire ?",
+        "Comment vous assurez-vous que les personnes ou les groupes les plus vulnérables comprennent ?"
+      ]
+    },
+    "les effets positifs": {
+      "title": "Effets positifs sur les personnes",
+      "questions": [
+        "Quels sont les individus, groupes, groupes démographiques ou organisations qui seront positivement touchés par ce projet ? Comment ?",
+        "Comment mesurez-vous et communiquez-vous l'impact positif ? Comment avez-vous ﻿pu l'augmenter ?"
+      ],
+      "listlabel": "Comment?"
+    },
+    "effets négatifs": {
+      "title": "Effets négatifs sur les personnes",
+      "questions": [
+        "Qui pourrait être affecté négativement par ce projet ?",
+        "La façon dont les données sont recueillies, utilisées ou partagées pourrait-elle causer du tort ou exposer les personnes au risque d'être réidentifiées ? Pourraient-elles être utilisées pour cibler, profiler ou préjuger des personnes, ou pour restreindre injustement l'accès (par ﻿exemple, des accords d'exclusivité) ?",
+        "Comment les limites et les risques sont-ils communiqués aux gens ? Réfléchissez à ce qui suit : les personnes sur lesquelles portent les données, les personnes touchées par leur utilisation et les organisations qui utilisent les données."
+      ],
+      "listlabel": "Comment?"
+    },
+    "atténuations": {
+      "title": "Minimiser l'impact négatif",
+      "questions": [
+        "Quelles mesures pouvez-vous prendre pour minimiser les dommages ?",
+        "Comment pourriez-vous réduire les limites de vos sources de données ? Comment assurez-vous la sécurité des renseignements personnels et des autres renseignements de nature délicate ?",
+        "Comment mesurez-vous, signalez-vous et agissez-vous sur les impacts négatifs ﻿potentiels de votre projet ?",
+        "Quels avantages ces actions apporteront-elles à votre projet ?"
+      ]
+    },
+    "engageant": {
+      "title": "S'engager avec les gens",
+      "questions": [
+        "Comment les gens peuvent-ils s'engager avec vous au sujet du projet ?",
+        "Comment les gens peuvent-ils corriger des informations, faire appel ou demander des modifications au produit/service ? Dans quelle mesure ?",
+        "Les mécanismes d'appel sont-ils raisonnables et bien compris ?"
+      ]
+    },
+    "ouverture": {
+      "title": "Ouverture et transparence",
+      "questions": [
+        "Comment pouvez-vous être ouvert sur ce projet ? Pourriez-vous publier votre méthodologie, vos métadonnées, vos ensembles de données, votre code ou vos mesures d'impact ?",
+        "Pouvez-vous demander à vos pairs de faire des commentaires sur le projet ? Comment allez-vous le communiquer en interne ?",
+        "Publierez-vous ouvertement vos actions et ﻿vos réponses à cette toile ?"
+      ]
+    },
+    "la mise en oeuvre": {
+      "title": "Mise en œuvre continue",
+      "questions": [
+        "Intégrez-vous régulièrement dans votre projet les pensées, les idées et les considérations des personnes  touchées ? Comment ?",
+        "Quelle information ou formation pourrait être nécessaire pour aider les gens à comprendre les problèmes liés aux données ?",
+        "Les systèmes, les processus et les ressources sont-ils disponibles pour répondre aux problèmes de données qui se ﻿osent à long terme ?"
+      ]
+    },
+    "revoir": {
+      "title": "Révision et itération",
+      "questions": [
+        "Comment les questions d'éthique des données en cours seront-elles mesurées, surveillées, discutées et mises en œuvre ?",
+        "À quelle fréquence vos réponses à cette toile seront-elles révisées ou mises à jour ? Quand ?"
+      ]
+    },
+    "Actions": {
+      "title": "Vos actions",
+      "questions": [
+        "Quelles mesures allez-vous prendre avant d'aller de l'avant avec ce projet ? Lesquelles devraient avoir la priorité ?",
+        "Qui sera responsable de ces actions, et qui ﻿doit être impliqué ?",
+        "Publierez-vous ouvertement vos actions et vos réponses à cette toile ?"
+      ]
+    },
+    "corners": {
       "top-left": "odi-logo.svg",
       "top-right": "Data Ethics Canvas",
       "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
       "bottom-right-link": "theodi.org/tools",
       "date": "2021-05",
-      "licence": ["cc-by-sa.svg", "Ce texte est couvert par une licence Creative Commons Attribution - ShareAlike 4.0 UK. Licence internationale"]
-   }
-}
+      "licence": [
+        "cc-by-sa.svg",
+        "Ce texte est couvert par une licence Creative Commons Attribution - ShareAlike 4.0 UK. Licence internationale"
+      ]
+    }
+  }

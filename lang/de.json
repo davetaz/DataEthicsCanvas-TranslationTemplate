@@ -2,8 +2,8 @@
     "sources":{
          "title":"Datenquellen",
          "questions":[
-            "Benennen/Beschreiben Sie die wichtigsten ﻿Datenquellen Ihres Projekts. Dies gilt ﻿unabhängig davon, ob Sie selbst Daten erfassen oder über Dritte auf diese zugreifen.",
-            "Handelt es sich um personenbezogene ﻿Daten oder um anderweitig vertrauliche Daten?"
+            "Benennen/Beschreiben Sie die wichtigsten Datenquellen Ihres Projekts. Dies gilt ﻿unabhängig davon, ob Sie selbst Daten erfassen oder über Dritte auf diese zugreifen.",
+            "Handelt es sich um personenbezogene Daten oder um anderweitig vertrauliche Daten?"
          ],
          "labels":{
             "title":"Title",

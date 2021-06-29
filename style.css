@@ -60,11 +60,29 @@ li {
     font-size: 43px;
     list-style-type: none;
     padding: 15px;
-}
+} 
 
-h3 {
+ /* h3 {
     font-size: 100px;
     margin-top: 43px;
     margin-left: 70px;
     padding-right: 135px;
+}  */
+
+
+/* Too fit Spanish and German */
+h3 {
+    font-size: 80px;
+    margin-top: 1px;
+    margin-left: 60px;
+    margin-right: 10px;
 }
+
+ #data-container6 > h3 {
+font-size: 80px !important;
+padding: 0px;
+} 
+
+#data-container6 > ul > li {
+    font-size: 40px !important;
+    } 
