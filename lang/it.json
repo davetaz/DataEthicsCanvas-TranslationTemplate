@@ -11,19 +11,19 @@
         "owner": "Owner"
       }
     },
-    "rights": {
-      "title": "Diritti in merito alle fonti di dati",
-      "questions": [
-        "I dati sono stati raccolti per questo progetto o per un altro scopo?",
-        "Si tratta di dati personali o di un altro genere di dati sensibili?"
-      ]
-    },
     "limitations": {
       "title": "Restrizioni fonti di dati",
       "questions": [
         "Ci sono limitazioni che potrebbero influenzare i risultati del vostro progetto?"
       ],
       "listlabel": "Description"
+    },
+    "sharing": {
+      "title": "Condivisione dei dati con altri",
+      "questions": [
+        "Avete intenzione di condividere i dati con altre organizzazioni? Se sì, chi?",
+        "Avete intenzione di pubblicare i dati? Sotto quali condizioni?"
+      ]
     },
     "ethical-legislative": {
       "title": "Contesto etico e legislativo",
@@ -33,12 +33,11 @@
       ],
       "listlabel": "Quali requisiti introducono?"
     },
-    "implementation": {
-      "title": "Attuazione in corso",
+        "rights": {
+      "title": "Diritti in merito alle fonti di dati",
       "questions": [
-        "Stai integrando abitualmente pensieri, idee e considerazioni delle persone interessate dal progetto? Come?",
-        "Quali informazioni o formazione potrebbero essere necessarie per aiutare le persone a comprendere le problematiche legate ai dati?",
-        "Sono disponibili sistemi, processi e risorse per rispondere alle problematiche legate ai dati che si presentano nel lungo periodo?"
+        "I dati sono stati raccolti per questo progetto o per un altro scopo?",
+        "Si tratta di dati personali o di un altro genere di dati sensibili?"
       ]
     },
     "reasons": {
@@ -48,6 +47,14 @@
         "Quali sono i principali casi d'utilizzo? Qual è il vostro modello di business?",
         "State migliorando lo stato della società? Come e per chi?",
         "State sostituendo un altro prodotto o servizio come risultato di questo progetto?"
+      ]
+    },
+    "communicating": {
+      "title": "Comunicare lo scopo",
+      "questions": [
+        "Le persone capiscono il vostro scopo, specialmente le persone a cui si riferiscono i dati o che sono influenzate dal loro utilizzo?",
+        "Come avete comunicato il vostro scopo? Questa comunicazione è stata chiara?",
+        "Come assicurate la comprensione da parte di individui o gruppi vulnerabili?"
       ]
     },
     "positive-effects": {
@@ -77,27 +84,12 @@
         "Quali benefici apporteranno queste azioni al vostro progetto?"
       ]
     },
-    "review": {
-      "title": "Recensioni ed iterazioni",
-      "questions": [
-        "Come si misureranno, monitoreranno, discuteranno e processeranno le problematiche etiche relative ai dati In via sviluppo?",
-        "Con quale frequenza le vostre risposte a questo Canvas saranno riviste o aggiornate? Quando?"
-      ]
-    },
     "engaging": {
       "title": "Collaborare con altre persone",
       "questions": [
         "In che modo le persone possono essere coinvolte nel progetto?",
         "Come possono le persone correggere le informazioni, chiedere aiuto o avanzare richieste di modifica al prodotto/servizio? In che misura?",
         "I meccanismi di ricorso sono ragionevoli e ben compresi?"
-      ]
-    },
-    "communicating": {
-      "title": "Comunicare lo scopo",
-      "questions": [
-        "Le persone capiscono il vostro scopo, specialmente le persone a cui si riferiscono i dati o che sono influenzate dal loro utilizzo?",
-        "Come avete comunicato il vostro scopo? Questa comunicazione è stata chiara?",
-        "Come assicurate la comprensione da parte di individui o gruppi vulnerabili?"
       ]
     },
     "openness": {
@@ -108,11 +100,19 @@
         "Pubblicherete apertamente le vostre azioni e le vostre risposte su questo canvas?"
       ]
     },
-    "sharing": {
-      "title": "Condivisione dei dati con altri",
+    "implementation": {
+      "title": "Attuazione in corso",
       "questions": [
-        "Avete intenzione di condividere i dati con altre organizzazioni? Se sì, chi?",
-        "Avete intenzione di pubblicare i dati? Sotto quali condizioni?"
+        "Stai integrando abitualmente pensieri, idee e considerazioni delle persone interessate dal progetto? Come?",
+        "Quali informazioni o formazione potrebbero essere necessarie per aiutare le persone a comprendere le problematiche legate ai dati?",
+        "Sono disponibili sistemi, processi e risorse per rispondere alle problematiche legate ai dati che si presentano nel lungo periodo?"
+      ]
+    },
+    "review": {
+      "title": "Recensioni ed iterazioni",
+      "questions": [
+        "Come si misureranno, monitoreranno, discuteranno e processeranno le problematiche etiche relative ai dati In via sviluppo?",
+        "Con quale frequenza le vostre risposte a questo Canvas saranno riviste o aggiornate? Quando?"
       ]
     },
     "actions": {

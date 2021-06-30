@@ -101,20 +101,20 @@
         "¿Hasta qué punto los mecanismos de apelación son razonables y están bien entendidos?"
       ]
     },
-    "openness": {
-      "title": "Apertura y transparencia",
-      "questions": [
-        "¿Qué tan abierto puedes ser acerca del problemas? ¿Puedes publicar la methodología, metadatos, base de datos, códigos o medidas de impacto?",
-        "¿Puedes pedirle a tus colegas retroalimentación del proyecto? ¿Cómo lo comunicaras internamente?",
-        "¿Piensas comunicar las acciones y respuestas a este canvas de manera abierta y pública?"
-      ]
-    },
     "communicating": {
       "title": "Comunicando tu propósito",
       "questions": [
         "¿Está claro para la gente tu propósito, especialmente para aquellas personas que serán impactadas por el uso de sus datos?",
         "¿Cómo has comunicado tu propósito? ¿Ha sido clara la comunicación?",
         "¿Cómo estás asegurándote que los individuos-grupos más vulnerables entiendan todo lo que te propones?"
+      ]
+    },
+    "openness": {
+      "title": "Apertura y transparencia",
+      "questions": [
+        "¿Qué tan abierto puedes ser acerca del problemas? ¿Puedes publicar la methodología, metadatos, base de datos, códigos o medidas de impacto?",
+        "¿Puedes pedirle a tus colegas retroalimentación del proyecto? ¿Cómo lo comunicaras internamente?",
+        "¿Piensas comunicar las acciones y respuestas a este canvas de manera abierta y pública?"
       ]
     },
     "sharing": {

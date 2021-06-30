@@ -87,10 +87,26 @@ function main(collection, color) {
    
     // bubble[1].appendChild(dataContainer[13])
 
+    bubble[1].appendChild(dataContainer[1])
+    bubble[2].appendChild(dataContainer[5])
+    bubble[3].appendChild(dataContainer[2])
+    bubble[4].appendChild(dataContainer[4])
+    bubble[5].appendChild(dataContainer[13])
+    bubble[6].appendChild(dataContainer[6])
+    bubble[7].appendChild(dataContainer[8])
+    bubble[8].appendChild(dataContainer[9])
+    bubble[9].appendChild(dataContainer[10])
+    bubble[10].appendChild(dataContainer[14])
+    bubble[11].appendChild(dataContainer[11])
+    bubble[12].appendChild(dataContainer[7])
+    bubble[13].appendChild(dataContainer[12])
+    bubble[14].appendChild(dataContainer[3])
+    bubble[15].appendChild(dataContainer[15])
 
-    for(let i = 1; i<16; i++){
-      bubble[i].appendChild(dataContainer[i])
-    }
+
+    // for(let i = 1; i<16; i++){
+    //   bubble[i].appendChild(dataContainer[i])
+    // }
    
  
     return data;
@@ -104,7 +120,7 @@ var url = new URL(window.location.href);
 
 
 var color = url.searchParams.get("color") || "colour";
-
+// color = "greyscale"
 if (color == "greyscale") {
   document.getElementsByTagName("body")[0].style.backgroundImage = "url('assets/greyscale/template-blank.jpg')";
   document.getElementsByTagName("body")[0].style.color = "black";
@@ -116,7 +132,7 @@ if (color == "greyscale") {
 
 
 
-var lang = url.searchParams.get("lang") || "en";
+var lang = url.searchParams.get("lang") || "de";
 
   
 
