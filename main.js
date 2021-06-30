@@ -120,7 +120,7 @@ var url = new URL(window.location.href);
 
 
 var color = url.searchParams.get("color") || "colour";
-// color = "greyscale"
+color = "greyscale"
 if (color == "greyscale") {
   document.getElementsByTagName("body")[0].style.backgroundImage = "url('assets/greyscale/template-blank.jpg')";
   document.getElementsByTagName("body")[0].style.color = "black";
@@ -132,7 +132,7 @@ if (color == "greyscale") {
 
 
 
-var lang = url.searchParams.get("lang") || "de";
+var lang = url.searchParams.get("lang") || "es";
 
   
 
