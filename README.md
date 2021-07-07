@@ -16,7 +16,9 @@ In the lang folder, take an existing translation to edit and create a new file w
 
 Carefully translate the contents and send it back to us as a pull request.
 
-However, if you are new to Github/unsure how pull requests work then we ask that you download and save <a href="https://raw.githubusercontent.com/theodi/data-ethics-canvas/master/lang/translateMe.json"> this file </a> to your computer. Open the file in your local text editor e.g. TextEdit on Mac or Notepad on Windows. You will see that this file is in the <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON"> JSON format </a> therefore, make sure to directly change the "title" and "questions" one-by-one without making changes to the overall structure:
+However, if you are new to Github/unsure how pull requests work then we ask that you download and save <a href="https://raw.githubusercontent.com/theodi/data-ethics-canvas/master/lang/translateMe.json"> this file </a> to your computer. Open the file in your local text editor e.g. TextEdit on Mac or Notepad on Windows. This file is in the <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON"> JSON format </a>. Make sure to directly change the "title" and "questions" one-by-one without making changes to the overall structure. 
+
+Please see the gif below:
 
 <img src="./InstructionAssets/JSON-Example.gif"/>
 
