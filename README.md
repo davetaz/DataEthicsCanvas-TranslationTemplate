@@ -2,7 +2,7 @@
 
 You can use this tool to view different translations on different both the colour and black and white Data Ethics Canvases.
 
-You go this by simply changing the *lang* and *color* query parameters e.g.
+This can be acheived by simply changing the *lang* and *color* query parameters e.g.
 
 https://theodi.github.io/data-ethics-canvas/?lang=en&color=greyscale
 
