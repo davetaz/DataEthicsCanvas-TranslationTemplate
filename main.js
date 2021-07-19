@@ -45,17 +45,6 @@ function main(collection, color) {
     let licenseLogo = info[5][0]
     let licenseText = info[5][1]
 
-    // const corners = [
-    //   info, 
-    //   largeTitle, 
-    //   logo, 
-    //   bottomLeftText, 
-    //   link, 
-    //   date, 
-    //   licenseLogo, 
-    //   licenseText
-    // ]
-
     let topRight = document.getElementById("top-right")
     let topRightDate = document.getElementById("top-right-date")
     let topLeft = document.getElementById("top-left")
@@ -72,9 +61,7 @@ function main(collection, color) {
     bottomRightLogo.src = "assets/" + color + "/" + licenseLogo
     bottomRightLink.append(link)
     bottomRightText.append(licenseText)
-    
-    // let info = Object.values(data.corners)[0]
-
+  
     let dataContainer = ["NA"]
 
     for(let i = 1; i<16; i++){
@@ -117,10 +104,8 @@ function main(collection, color) {
 
 var url = new URL(window.location.href);
 
-
-
 var color = url.searchParams.get("color") || "colour";
-color = "greyscale"
+
 if (color == "greyscale") {
   document.getElementsByTagName("body")[0].style.backgroundImage = "url('assets/greyscale/template-blank.jpg')";
   document.getElementsByTagName("body")[0].style.color = "black";
@@ -132,9 +117,13 @@ if (color == "greyscale") {
 
 
 
-var lang = url.searchParams.get("lang") || "es";
 
-  
 
+
+var lang = url.searchParams.get("lang") || "en";
+
+lang == "nl" ? document.getElementById('container-8').style.fontSize = "10px !important" : "10px !important"
+document.getElementById('container-8').style.setProperty( 'property', 'newValue', 'important' );
+console.log(lang)
 main("./lang/" + lang + ".json", color);
 
