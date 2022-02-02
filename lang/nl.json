@@ -1,0 +1,141 @@
+{ 
+    "sources":{
+         "title":"Databronnen",
+         "questions":[
+            "Beschrijf de databronnen van het project, en of de data zelf verzameld wordt of komt van derden.",
+            "Zitten er persoonsgegevens tussen de data, of is de data op een andere manier gevoelig?"
+         ],
+         "labels":{
+            "title":"Titel",
+            "description":"Omschrijving",
+            "url":"URL",
+            "owner":"Eigenaar"
+         }
+      },
+       "limitations":{
+         "title":"Beperkingen van de databronnen",
+         "questions":[
+            "Zijn er beperkingen die de uitkomsten van het project kunnen beïnvloeden?",
+            "Denk aan:",
+            "> bias in dataverwerving, insluiting/uitsluiting, analyse, algoritmes",
+            "> ontbrekende data of lacunes in de data",
+            "> herkomst en kwaliteit van de data" ,
+            "> andere zaken die beslissingen kunnen beïnvloeden, zoals de teamsamenstelling"
+         ],
+         "listlabel":"Omschrijving"
+      },
+         "sharing":{
+         "title":"Delen van data met anderen",
+         "questions":[
+            "Ga je data met andere organisaties delen? Zo ja, met welke?",
+            "Ben je van plan om (delen van) de data te publiceren? Onder welke voorwaarden?"
+         ]
+      },
+      "ethical-legislative":{
+         "title":"Ethische en juridische context",
+         "questions":[
+            "Welke bestaande ethische codes zijn van toepassing binnen deze sector of dit project? Welke wet- en regelgeving bepalen hoe de data gebruikt kan worden? Wat zijn de vereisten op basis van die regelgeving?",
+            "Denk aan: de geldende wetgeving; mensenrechten; bescherming persoonsgegevens; auteurs- en databaserechten; antidiscriminatiewetgeving; en datadeel-, beleids-, regulering- en ethiek codes/raamwerken die sectorspecifiek zijn (bijv. zorg, arbeid, belastingen)."
+         ],
+         "listlabel":"Welke eisen worden hiermee geïntroduceerd?"
+      },
+        "rights":{
+         "title":"Rechten rondom de databronnen",
+         "questions":[
+           "Waar komt de data vandaan? Wordt deze geproduceerd door een organisatie of wordt deze verzameld bij individuen?",
+          "Is de data voor dit project verzameld of is het verzameld voor een ander doel? Is er toestemming om de data te gebruiken, of is er een andere reden waarom de data gebruikt mag worden? Welke doorlopende rechten horen er bij de databron?"
+         ]
+      },
+          "reasons":{
+         "title":"De redenen voor het gebruik van de data",
+         "questions":[
+            "Wat is de primaire reden voor het verzamelen en gebruiken van de data binnen dit project?",
+            "Wat zijn de belangrijkste toepassingen? Wat is het businessmodel?",
+            "Maakt dit project dingen beter voor de samenleving? Hoe dan en voor wie?",
+            "Wordt er een ander product of een andere dienst vervangen als resultaat van dit project?"
+         ]
+      },
+            "communicating":{
+         "title":"Het doel communiceren",
+         "questions":[
+            "Begrijpen mensen het doel van het project – en dan met name de mensen over wie de data gaat of die de gevolgen van het datagebruik ondervinden?",
+            "Is het doel gecommuniceerd? Was deze communicatie duidelijk?",
+            "Hoe wordt ervoor gezorgd dat kwetsbare individuen en groepen het project begrijpen?"
+         ]
+      },
+             "positive-effects":{
+         "title":"Positieve effecten op mensen",
+         "questions":[
+            "Welke individuen, (demografische) groepen, of organisaties zullen de positieve gevolgen van dit project ervaren? En hoe?",
+            "Hoe worden de positieve effecten gemeten en gedeeld? Hoe zouden de positieve effecten vergroot kunnen worden?"
+         ],
+         "listlabel":"Hoe?"
+      },
+       "negative-effects":{
+         "title":"Negatieve effecten op mensen",
+         "questions":[
+            "Op wie zou dit project een negatief effect kunnen hebben?",
+            "Zou de manier waarop de data wordt verzameld, gebruikt of gedeeld, mensen kunnen beschadigen en is er een risico op heridentificatie?",
+            "Kan het gebruikt worden om mensen te profileren of om mensen onterecht de toegang te ontzeggen (bijv. door exclusieve regelingen)?",
+            "Hoe worden de beperkingen en risico's van de data naar deze mensen gecommuniceerd?"
+         ],
+         "listlabel":"Hoe?"
+      },
+          "mitigations":{
+         "title":"Minimaliseren van de negatieve gevolgen",
+         "questions":[
+            "Welke stappen kunnen er genomen worden om de schade zoveel mogelijk te beperken?",
+            "Hoe kunnen de beperkingen van de databronnen verminderd worden? Hoe worden persoonsgegevens en andere gevoelige informatie veilig gehouden?",
+            "Hoe worden de mogelijke negatieve gevolgen gemeten en gerapporteerd, en wat wordt er aan gedaan?",
+            "Welke voordelen zullen deze acties opleveren voor het project?"
+         ]
+      },
+             "engaging":{
+         "title":"Mensen betrekken",
+         "questions":[
+            "Hoe kunnen mensen betrokken raken bij het project?",
+            "Hoe kunnen mensen informatie corrigeren, bezwaar aantekenen, of wijzigingen voorstellen over het product/de dienst? En in welke mate?",
+            "Zijn de mogelijkheden om bezwaar aan te tekenen redelijk en goed te begrijpen?"
+         ]
+      },
+           "openness":{
+         "title":"Openheid en transparantie",
+         "questions":[
+            "Hoe open kan het project zijn? Kunnen de methodologie, metadata, datasets, code, of effectmetingen worden gepubliceerd?",
+            "Kan er om peer-feedback worden gevraagd binnen het project? Hoe wordt het intern gecommuniceerd?",
+            "Worden antwoorden en acties naar aanleiding van dit canvas openlijk gepubliceerd?"
+         ]
+      },
+           "implementation":{
+         "title":"Lopende uitvoering",
+         "questions":[
+            "Wordt er binnen dit project regelmatig gebruik gemaakt van de ideeën en overwegingen van de mensen die de gevolgen ervaren van het project? Hoe dan?",
+            "Welke informatie of training zou nodig kunnen zijn om mensen de datavraagstukken te helpen begrijpen?",
+            "Zijn er systemen, processen en middelen beschikbaar om te reageren op datavraagstukken die op de langere termijn kunnen ontstaan?"
+         ]
+         
+      },
+         "review":{
+         "title":"Herzien en doorontwikkelen",
+         "questions":[
+            "Hoe worden doorlopende data-ethiek kwesties gemeten, gemonitord, en bediscussieerd? En hoe wordt daar actie op ondernomen?",
+            "Hoe vaak worden de antwoorden op dit canvas opnieuw bekeken en herzien? En wanneer?"
+         ]
+      },
+         "actions":{
+         "title":"Te nemen acties",
+         "questions":[
+            "Wat moet er nog gebeuren voordat er door kan worden gegaan met dit project?",
+            "Worden antwoorden en acties naar aanleiding van dit canvas openlijk gepubliceerd?"
+         ]
+      },
+          "corners": {
+        "top-left": "odi-logo.svg",
+        "top-right": "Data-ethiek Canvas",
+        "bottom-left-text": "Open Data Institute #DataEthicsCanvas",
+        "bottom-right-link": "theodi.org/tools",
+        "date": "2022-02",
+        "licence": ["cc-by-sa.svg", "Dit werk valt onder een Creative Commons Naamsvermelding-GelijkDelen 4.0 UK. Internationaal-licentie"]
+      }
+   }
+   
