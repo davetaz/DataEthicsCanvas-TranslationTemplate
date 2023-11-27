@@ -1,0 +1,70 @@
+{
+    "negative-effects": {
+        "title": "Efeitos negativos nas pessoas",
+        "questions": [
+            "Quem poderia ser negativamente afetado por este projeto?",
+            "A maneira como os dados são coletados, usados ou compartilhados poderia causar dano ou expor indivíduos ao risco de serem reidentificados?",
+            "Isso poderia ser usado para segmentar, categorizar ou criar preconceitos contra pessoas, ou restringir injustamente o acesso (por exemplo, acordos exclusivos)?",
+            "Como as limitações e riscos são comunicados às pessoas?"
+        ],
+        "listlabel": "Como?"
+    },
+    "mitigations": {
+        "title": "Minimizando efeitos negativos",
+        "questions": [
+            "Quais medidas você pode tomar para minimizar danos?",
+            "Como você poderia reduzir quaisquer limitações em suas fontes de dados? Como você está mantendo informações pessoais e outras sensíveis seguras?",
+            "Como você está medindo, relatando e agindo sobre impactos negativos potenciais do seu projeto?",
+            "Quais benefícios essas ações trarão para o seu projeto?"
+        ]
+    },
+    "engaging": {
+        "title": "Engajando com as pessoas",
+        "questions": [
+            "Como as pessoas podem se engajar com você sobre o projeto?",
+            "Como as pessoas podem corrigir informações, recorrer ou solicitar mudanças no produto/serviço? Até que ponto?",
+            "Os mecanismos de apelação são razoáveis e bem compreendidos?"
+        ]
+    },
+    "openness": {
+        "title": "Abertura e transparência",
+        "questions": [
+            "Quão aberto você pode ser sobre este projeto? Você poderia publicar sua metodologia, metadados, conjuntos de dados, código ou medições de impacto?",
+            "Você pode pedir feedback de colegas sobre o projeto? Como você comunicará isso internamente?",
+            "Você publicará suas ações e respostas a este canvas abertamente?"
+        ]
+    },
+    "implementation": {
+        "title": "Implementação contínua",
+        "questions": [
+            "Você está rotineiramente incorporando pensamentos, ideias e considerações de pessoas afetadas pelo seu projeto? Como?",
+            "Que informações ou treinamentos podem ser necessários para ajudar as pessoas a entenderem questões de dados?",
+            "Sistemas, processos e recursos estão disponíveis para responder a questões de dados que surgem a longo prazo?"
+        ]
+    },
+    "review": {
+        "title": "Revisões e iterações",
+        "questions": [
+            "Como questões contínuas de ética de dados serão medidas, monitoradas, discutidas e ação tomada?",
+            "Com que frequência suas respostas a este canvas serão revisadas ou atualizadas? Quando?"
+        ]
+    },
+    "actions": {
+        "title": "Suas ações",
+        "questions": [
+            "Que ação você tomará antes de prosseguir com este projeto?",
+            "Você publicará abertamente suas ações e respostas a este canvas?"
+        ]
+    },
+    "corners": {
+        "top-left": "odi-logo.svg",
+        "top-right": "Data Ethics Canvas",
+        "bottom-left-text": "Instituto de Dados Abertos #DataEthicsCanvas",
+        "bottom-right-link": "theodi.org/tools",
+        "date": "2021-05",
+        "licence": [
+            "cc-by-sa.svg",
+            "Este texto está licenciado sob uma Licença Internacional Creative Commons Attribution-ShareAlike 4.0 UK"
+        ]
+    }
+}
