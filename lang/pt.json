@@ -1,20 +1,92 @@
 {
+    "sources": {
+        "title": "Fontes de Dados",
+        "questions": [
+            "Nomeie/descreva as principais fontes de dados do seu projeto, seja coletando dados você mesmo ou acessando através de terceiros.",
+            "Envolve algum dado pessoal ou dados que são de outra forma sensíveis?"
+        ],
+        "labels": {
+            "title": "Título",
+            "description": "Descrição",
+            "url": "URL",
+            "owner": "Proprietário"
+        }
+    },
+    "limitations": {
+        "title": "Limitações nas fontes de dados",
+        "questions": [
+            "Existem limitações que poderiam influenciar os resultados do seu projeto?",
+            "Considere:",
+            "> viés na coleta de dados, inclusão/exclusão, análise, algoritmos",
+            "> lacunas ou omissões nos dados",
+            "> proveniência e qualidade dos dados",
+            "> outros problemas que afetam decisões, como a composição da equipe"
+        ],
+        "listlabel": "Descrição"
+    },
+    "sharing": {
+        "title": "Compartilhando dados com outros",
+        "questions": [
+            "Você vai compartilhar dados com outras organizações? Se sim, com quem?",
+            "Você planeja publicar algum dos dados? Sob quais condições?"
+        ]
+    },
+    "ethical-legislative": {
+        "title": "Contexto ético e legislativo",
+        "questions": [
+            "Quais códigos éticos existentes se aplicam ao seu setor ou projeto? Que legislação, políticas ou outra regulamentação moldam como você usa os dados? Quais requisitos eles introduzem?",
+            "Considere: o estado de direito; direitos humanos; proteção de dados; direitos de PI e de banco de dados; leis antidiscriminação; e compartilhamento de dados, políticas, regulamentação e códigos/estruturas éticas específicos para setores (por exemplo, saúde, emprego, tributação)."
+        ],
+        "listlabel": "Quais requisitos isso introduz?"
+    },
+    "rights": {
+        "title": "Direitos em torno das fontes de dados",
+        "questions": [
+            "De onde você obteve os dados? São produzidos por uma organização ou coletados diretamente de indivíduos?",
+            "Os dados foram coletados para este projeto ou para outro propósito? Você tem permissão para usar esses dados ou outra base na qual está autorizado a usá-los? Quais direitos contínuos a fonte de dados terá?"
+        ]
+    },
+    "reasons": {
+        "title": "Seus motivos para usar dados",
+        "questions": [
+            "Qual é o seu principal propósito para coletar e usar dados neste projeto?",
+            "Quais são seus principais casos de uso? Qual é o seu modelo de negócios?",
+            "Você está tornando as coisas melhores para a sociedade? Como e para quem?",
+            "Você está substituindo outro produto ou serviço como resultado deste projeto?"
+        ]
+    },
+    "communicating": {
+        "title": "Comunicando seu propósito",
+        "questions": [
+            "As pessoas entendem seu propósito – especialmente as pessoas sobre as quais os dados são ou que são impactadas pelo seu uso?",
+            "Como você tem comunicado seu propósito? Essa comunicação foi clara?",
+            "Como você está garantindo que indivíduos ou grupos mais vulneráveis entendam?"
+        ]
+    },
+    "positive-effects": {
+        "title": "Efeitos positivos nas pessoas",
+        "questions": [
+            "Quais indivíduos, grupos, demografias ou organizações serão afetados positivamente por este projeto? Como?",
+            "Como você está medindo e comunicando o impacto positivo? Como você poderia aumentá-lo?"
+        ],
+        "listlabel": "Como?"
+    },
     "negative-effects": {
         "title": "Efeitos negativos nas pessoas",
         "questions": [
-            "Quem poderia ser negativamente afetado por este projeto?",
-            "A maneira como os dados são coletados, usados ou compartilhados poderia causar dano ou expor indivíduos ao risco de serem reidentificados?",
-            "Isso poderia ser usado para segmentar, categorizar ou criar preconceitos contra pessoas, ou restringir injustamente o acesso (por exemplo, acordos exclusivos)?",
+            "Quem poderia ser afetado negativamente por este projeto?",
+            "A maneira como os dados são coletados, usados ou compartilhados pode causar danos ou expor indivíduos ao risco de serem reidentificados?",
+            "Pode ser usado para segmentar, categorizar ou criar preconceitos contra pessoas, ou restringir injustamente o acesso (por exemplo, arranjos exclusivos)?",
             "Como as limitações e riscos são comunicados às pessoas?"
         ],
         "listlabel": "Como?"
     },
     "mitigations": {
-        "title": "Minimizando efeitos negativos",
+        "title": "Minimizando impacto negativo",
         "questions": [
-            "Quais medidas você pode tomar para minimizar danos?",
+            "Quais etapas você pode tomar para minimizar o dano?",
             "Como você poderia reduzir quaisquer limitações em suas fontes de dados? Como você está mantendo informações pessoais e outras sensíveis seguras?",
-            "Como você está medindo, relatando e agindo sobre impactos negativos potenciais do seu projeto?",
+            "Como você está medindo, relatando e agindo sobre os potenciais impactos negativos do seu projeto?",
             "Quais benefícios essas ações trarão para o seu projeto?"
         ]
     },
@@ -22,8 +94,8 @@
         "title": "Engajando com as pessoas",
         "questions": [
             "Como as pessoas podem se engajar com você sobre o projeto?",
-            "Como as pessoas podem corrigir informações, recorrer ou solicitar mudanças no produto/serviço? Até que ponto?",
-            "Os mecanismos de apelação são razoáveis e bem compreendidos?"
+            "Como as pessoas podem corrigir informações, ou solicitar alterações no produto/serviço? Até que ponto?",
+            "Os mecanismos de recurso são razoáveis e bem compreendidos?"
         ]
     },
     "openness": {
@@ -38,14 +110,14 @@
         "title": "Implementação contínua",
         "questions": [
             "Você está rotineiramente incorporando pensamentos, ideias e considerações de pessoas afetadas pelo seu projeto? Como?",
-            "Que informações ou treinamentos podem ser necessários para ajudar as pessoas a entenderem questões de dados?",
+            "Que informações ou treinamento podem ser necessários para ajudar as pessoas a entenderem questões de dados?",
             "Sistemas, processos e recursos estão disponíveis para responder a questões de dados que surgem a longo prazo?"
         ]
     },
     "review": {
         "title": "Revisões e iterações",
         "questions": [
-            "Como questões contínuas de ética de dados serão medidas, monitoradas, discutidas e ação tomada?",
+            "Como as questões éticas contínuas de dados serão medidas, monitorados, discutidos e acionados?",
             "Com que frequência suas respostas a este canvas serão revisadas ou atualizadas? Quando?"
         ]
     },
@@ -64,7 +136,7 @@
         "date": "2021-05",
         "licence": [
             "cc-by-sa.svg",
-            "Este texto está licenciado sob uma Licença Internacional Creative Commons Attribution-ShareAlike 4.0 UK"
+            "Este texto está licenciado sob uma Licença Internacional Creative Commons Attribution-ShareAlike 4.0 UK."
         ]
     }
 }
